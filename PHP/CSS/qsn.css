@@ -1,0 +1,26 @@
+.qsn {
+    width: 30%;
+    border: solid 1px black;
+    box-shadow: 3px 3px;
+    border-radius: 10%;
+    margin: auto;
+    background-color: azure;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    margin-left: 5%
+}
+
+p {
+    margin-left: 5%;
+}
+
+@media all and (max-width: 920px) {
+    .qsn {
+        width: 60%;
+    }
+}

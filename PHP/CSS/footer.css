@@ -1,0 +1,23 @@
+
+#TotalFooter {
+    font-family: 'calibri' size '14';
+    text-align: center;
+    background-color: #E7E6E6;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.btnFooter {
+    font-family: 'calibri' size '14';
+    text-align: center;
+    border: 1px solid black;
+    background-color: #767171;
+    width: 10em;
+    height: 2em;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+}

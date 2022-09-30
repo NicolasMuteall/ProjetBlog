@@ -1,0 +1,8 @@
+body{
+    background-color: #BEEBF7 ;
+}
+h1{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+}

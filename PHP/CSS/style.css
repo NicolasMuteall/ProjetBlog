@@ -1,0 +1,335 @@
+/*@media (max-width: 300px),
+not print and (color),
+screen and (min-resolution: 300dpi),
+
+/* ******** Grand ecran ******** */
+@media all and (max-width: 1050px) {
+    .titrePrincipal {
+        display: none;
+    }
+
+    .logoA {
+        margin: auto;
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* ******* TELEPHONE ******** */
+@media all and (max-width: 720px) {
+    
+    h2 {
+        text-align: center;
+        font-family: 'Calibri', sans-serif;
+        font-size: 28px;
+        font-style: italic;
+        color: black;
+    }
+
+    #boxnav {
+        display: none;
+    }
+
+    #menuBur {
+        display: block !important;
+    }
+
+    #navigation {
+
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    /*.bienvenue {
+        display: block;
+        left: 0;
+        right: 0;
+        transform: translate(-150px, 0);
+    }
+}*/
+
+    .logo {
+        text-align: center;
+        width: 100%;
+        margin-top: 15px;
+
+    }
+
+    .logoA {
+        position: relative;
+        margin: auto;
+        align-items: center;
+    }
+
+    .titrePrincipal {
+        display: none;
+    }
+
+
+}
+
+
+/* ************ GENERAL ************ */
+
+body {
+    background-color: goldenrod;
+    margin: 0;
+    font-family: 'Calibri, sans-serif';
+    height: auto;
+    pointer-events: fill;
+}
+.sidenav{
+    margin-top: 215PX;
+    
+}
+#menuBur {
+    display: none;
+}
+
+head {
+    display: flex;
+}
+
+/* ************ LOGO ************ */
+.logoA {
+    margin-top: 15px;
+    width: 200px;
+    height: 160px;
+    border: blanchedalmond solid 2px;
+    border-radius: 50%;
+}
+
+/* ************ Titre principal ************ */
+h1 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+    margin-top: -150px;
+    color: black;
+
+}
+
+
+/* ************ Navigation ************ */
+#navigation {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#boxnav {
+    width: 80%;
+    text-align: center;
+}
+
+nav {
+    box-shadow: 2px 2px rgb(112, 111, 111);
+    width: 80%;
+    height: 50px;
+    margin: 0px auto;
+    background-color: silver;
+    top: 0px;
+    padding-bottom: 18px;
+    font-family: 'Calibri', sans-serif;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    align-content: center;
+
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    padding-bottom: 10px;
+    margin-top: 6%;
+    transition: transform .2s;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    transform: scale(1.2);
+    border-radius: 5%;
+
+}
+
+nav a:hover {
+    background-color: rgb(161, 156, 161);
+}
+
+nav>ul li:hover .sous {
+    display: block;
+
+}
+
+
+/* ************ Barre de recherche ************ */
+#ch:checked+nav {
+    transform: translate(0, 0);
+    transition: all 0.5s ease;
+}
+
+
+
+#searchbar {
+    width: 55%;
+    box-shadow: 1px 1px blanchedalmond;
+    border-radius: 5%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -30px;
+    height: 40px;
+    background-color: white;
+
+}
+
+
+
+/* ************ Message Bienvenue ************ */
+.bienvenue {
+    border: silver;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px rgb(173, 172, 172);
+    margin-top: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: silver;
+    width: 100%;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    color: black;
+}
+
+/* ************ Menu déroulant ************ */
+#Categorie {
+    margin-top: 3%;
+    display: none;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    box-shadow: 1px 1px #000000;
+
+}
+
+::selection {
+    background-color: #CF2E87;
+    color: #fff;
+}
+
+.label {
+    display: block;
+    width: 125px;
+    margin: 340px;
+    float: left;
+}
+
+select {
+    margin: auto;
+}
+
+hr {
+    width: 50%;
+    margin-top: 50px;
+}
+
+/* ************ Menu Burger ************ */
+/* Sidenav menu */
+.sidenav {
+    height: 30%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    background-color: silver;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    border-bottom: 1px solid black;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #111;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.burger-icon span {
+    display: flex;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+#searchbar2 {
+    width: 97%;
+    text-align: center;
+    margin-left: 1%;
+}

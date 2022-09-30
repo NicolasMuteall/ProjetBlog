@@ -1,0 +1,103 @@
+body {
+    background-color: #e7e6e6;
+    margin: 0;
+    font-family: 'Calibri, sans-serif';
+    height: auto;
+
+}
+
+/* ************ LOGO ************ */
+.logoA {
+    width: 200px;
+    height: 160px;
+}
+
+/* ************ Titre principal ************ */
+h1 {
+
+    font-family: 'Waiting for the Sunrise', cursive;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+    margin-top: -150px;
+
+}
+
+
+/* ************ Navigation ************ */
+#navigation {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-left: 210px;
+
+}
+
+#boxnav {
+    width: 80%;
+    text-align: center;
+
+}
+
+nav {
+    box-shadow: 2px 2px #000000;
+    border-radius: 1%;
+    width: 80%;
+    height: 50px;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+    top: 0px;
+    padding-bottom: 18px;
+    font-family: 'Calibri', sans-serif;
+
+}
+
+nav ul {
+    border-color: black;
+    border-width: 2px;
+    list-style-type: none;
+    align-content: center;
+
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    padding-bottom: 10px;
+}
+
+nav a:hover {
+    color: #bfbfbf;
+
+}
+
+
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+nav {
+
+    border: #000 solid 1px;
+
+}
